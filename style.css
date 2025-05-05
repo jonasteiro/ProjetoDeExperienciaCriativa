@@ -1,0 +1,25 @@
+
+.container{
+background-color: black;
+}
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff893;
+    text-align: center; /* Centraliza o texto da logo */
+    margin-bottom: 15px; /* Espaço entre a logo e a navegação */
+}
+
+
+.logo span {
+    color: #d4cc57;
+}
+.BARES{
+    display: inline;
+    background: linear-gradient(45deg,rgb(34, 34, 34), #535353, WHITE, GOLD);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+}
+
+
