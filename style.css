@@ -182,3 +182,117 @@ table tr:nth-child(even) td {
         max-width: none;
     }
 }
+
+/* Estilos para a seção de Outras Recomendações */
+#outras-recomendacoes {
+    background-color: #1e1a20;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#outras-recomendacoes h2 {
+    color: #c77803;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.bar-info {
+    background-color: #2e2a33;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.bar-info h3 {
+    color: #c77803;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.bar-info p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.bar-info img {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.bar-info a {
+    color: #c77803;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.bar-info a:hover {
+    color: #fff;
+}
+
+.bar-info ul {
+    text-align: left;
+    margin: 10px 0;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.bar-info ul li {
+    font-size: 14px;
+    color: #bbb;
+}
+
+/* Estilos para a seção de Outras Recomendações */
+#outras-recomendacoes {
+    background-color: #1e1a20;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#outras-recomendacoes h2 {
+    color: #c77803;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#outras-recomendacoes ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#outras-recomendacoes ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#outras-recomendacoes ul li a {
+    color: #c77803;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#outras-recomendacoes ul li a:hover {
+    color: #fff;
+}
+
