@@ -97,30 +97,42 @@ footer {
     color: goldenrod;
 }
 
-#about {
-    background-color: gold;
-}
-
-/* New CSS for Saiba Mais button */
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 20px;
-    background: linear-gradient(45deg, rgb(124, 70, 0), #c77803, WHITE, GOLD);
-    color: transparent;
-    -webkit-text-fill-color: white;
-    -webkit-background-clip: text;
-    font-weight: bold;
+#bares-info {
+    background-color: #1e1a20;
+    color: #fff;
+    padding: 40px 20px;
     text-align: center;
+}
+
+.bar-info {
+    background-color: #2e2a33;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bar-info h2 {
+    color: #c77803;
+}
+
+.bar-info p, .bar-info ul {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.bar-info img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.bar-info a {
+    color: #c77803;
     text-decoration: none;
-    border-radius: 5px;
-    border: 2px solid transparent;
-    transition: all 0.3s ease;
+    font-weight: bold;
+    transition: color 0.3s;
 }
 
-.btn:hover {
-    background: linear-gradient(45deg, #c77803, rgb(124, 70, 0), GOLD);
-    color: white;
-    border: 2px solid #c77803;
+.bar-info a:hover {
+    color: #fff;
 }
-
