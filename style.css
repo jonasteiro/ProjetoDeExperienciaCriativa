@@ -1,94 +1,126 @@
-
-.container{
-background-color: #000000;
-padding: 10px 2px;
-width:100%;
-display: inline-block;
+.container {
+    background-color: #000000;
+    padding: 10px 2px;
+    width: 100%;
+    display: inline-block;
 }
+
 .logo {
     font-size: 32px;
     font-weight: bold;
     color: #fff893;
-    text-align: center; 
-    margin-bottom: 15px; 
+    text-align: center;
+    margin-bottom: 15px;
 }
-
 
 .logo span {
     color: GOLD;
 }
-.BARES{
+
+.BARES {
     display: inline;
-    background: linear-gradient(45deg,rgb(124, 70, 0), #c77803, WHITE, GOLD);
+    background: linear-gradient(45deg, rgb(124, 70, 0), #c77803, WHITE, GOLD);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-weight: bold;
 }
 
-h2{
-    font-style: poppins;
+h2 {
+    font-family: Poppins;
     text-align: center;
-    
 }
 
 body {
-          font-family: Cambria, Cochin, sans-serif;
-          margin: 0;
-          padding: 0;
-        }
+    font-family: Cambria, Cochin, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+.carousel-background {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    overflow: hidden;
+}
 
-        .carousel-background {
-        position: relative;
-        width: 100%;
-        height: 65vh;
-        overflow: hidden;
-        }
-        .carousel-slide {
-            display: flex;
-            width: 200%; 
-            height: 100%;
-            animation: slide 30s infinite;
-        }
-        .carousel-slide img {
-            width: 100%;
-            height: 100%; 
-            object-fit: cover;
-        }
-        .content {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            color: rgb(255, 255, 255);
-            z-index: 1;
-        }
-        @keyframes slide {
-            100% {
-                transform: translateX(100%);
-            }
-            100% {
-                transform: translateX(-150%);
-            }
-        }
+.carousel-slide {
+    display: flex;
+    width: 200%;
+    height: 100%;
+    animation: slide 30s infinite;
+}
 
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-        footer {
-        background-color: #1e1a20;
-        color: white;
-        padding: 7px 0;
-        text-align: center;
-        }
-        .contact-info {
-        margin-bottom: 10px;
-        }
-        .social-links a {
-        color: white;
-        text-decoration: none;
-        margin: 0 8px;
-        font-size: 22px;
-        }
-        .social-links a:hover {
-        color: goldenrod;
-         }
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+@keyframes slide {
+    100% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-150%);
+    }
+}
+
+footer {
+    background-color: #1e1a20;
+    color: white;
+    padding: 7px 0;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 22px;
+}
+
+.social-links a:hover {
+    color: goldenrod;
+}
+
+#about {
+    background-color: gold;
+}
+
+/* New CSS for Saiba Mais button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: linear-gradient(45deg, rgb(124, 70, 0), #c77803, WHITE, GOLD);
+    color: transparent;
+    -webkit-text-fill-color: white;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #c77803, rgb(124, 70, 0), GOLD);
+    color: white;
+    border: 2px solid #c77803;
+}
+
